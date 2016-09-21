@@ -28,3 +28,6 @@
 def solution(a, k)
   a = a.rotate(-k)
 end
+
+# Refactor for complexity/performance
+# Determine how many times N/K go into each to minimze how many times the method actually has to rotate items
